@@ -1,0 +1,40 @@
+.container {
+    margin: auto;
+    padding: 0;
+    width: 900px;
+    /* max-width: 1280px; */
+    /* align-items: center; */
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+header {
+    height: 100px;
+    background-color: blue;
+    color: white;
+}
+
+nav {
+    background-color: yellow;
+}
+
+.row>* {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+aside {
+    background-color: aqua;
+}
+
+footer {
+    background-color: rgb(221, 221, 221);
+    height: 50px;
+}
