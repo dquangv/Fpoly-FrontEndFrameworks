@@ -1,5 +1,14 @@
+.container {
+    margin: auto;
+    padding: 0;
+    /* width: 900px; */
+    /* max-width: 1280px; */
+    /* align-items: center; */
+}
+
 header {
     position: relative;
+    height: 200px;
 }
 
 .shopping-mall {
@@ -8,7 +17,7 @@ header {
     font-variant: small-caps;
 }
 
-.shopping-mall > h1 {
+.shopping-mall>h1 {
     font-family: Impact;
     font-size: 50px;
     color: white;
@@ -19,7 +28,31 @@ header {
     margin: 0px;
 }
 
-.shopping-mall > h5 {
+.shopping-mall>h5 {
     margin-top: 5px;
     letter-spacing: 0.5px;
+}
+
+.pull-right {
+    position: absolute;
+    display: inline-block;
+    width: 450px;
+    height: 200px;
+    top: 0;
+    right: 0;
+}
+
+nav {
+    background-color: yellow;
+}
+
+/* .row>* {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+} */
+
+aside {
+    background-color: aqua;
 }
