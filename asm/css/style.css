@@ -1,0 +1,68 @@
+body {
+    line-height: 1.6;
+    font: 300 14px 'Montserrat';
+}
+
+header {
+    width: 100%;
+    position: relative;
+}
+
+header .navbar {
+    padding: 0;
+    background-color: black;
+}
+
+header .container {
+    padding: 15px 0;
+}
+
+header .container::before {
+    content: "";
+    width: calc(100% - 100px);
+    height: 0px;
+    border-bottom: 1px solid #333;
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+}
+
+
+header .top-left {
+    font-size: 12px;
+    font-weight: 600;
+    color: #666;
+}
+
+header .top-left a {
+    color: #666;
+}
+
+header .dflex svg {
+    color: white;
+}
+
+header .top-left span {
+    margin: 0 10px;
+}
+
+header .container .navbar-brand {
+    letter-spacing: 5px;
+    font-weight: 600px;
+}
+
+header .container .dropdown-menu {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0;
+    border-radius: 0;
+}
+
+header .container .dropdown-menu .dropdown-item {
+    display: block;
+    font-weight: 600;
+    border-bottom: 1px solid #d8d8d8;
+    color: #000000;
+    padding: 15px;
+    font-size: 12px;
+}
