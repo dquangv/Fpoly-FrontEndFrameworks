@@ -2,6 +2,7 @@ body {
     line-height: 1.6;
     font: 300 14px 'Montserrat';
     font-weight: 500;
+    background-color: #F0F0F0;
 }
 
 header {
@@ -14,8 +15,12 @@ header .navbar {
     background-color: black;
 }
 
-header .container {
-    padding: 14px 0;
+header .navbar:nth-child(1)>.container {
+    padding: 18px 0;
+}
+
+header .navbar:nth-child(2)>.container {
+    padding: 10px 0;
 }
 
 header .container::before {
@@ -114,4 +119,32 @@ header .container .nav-item:hover .menu-item-list {
     visibility: visible;
     opacity: 1;
     transform: translateY(0);
+}
+
+header .container .d-flex {
+    display: flex;
+    align-items: center;
+}
+
+header .container .d-flex>* {
+    vertical-align: middle;
+}
+
+
+header .container .d-flex a {
+    text-decoration: none;
+    color: #fff;
+    font: 300 14px 'Montserrat';
+    font-weight: 200;
+    font-size: 11px;
+    margin: 0 5px;
+}
+
+header .container .d-flex a:hover {
+    text-decoration: underline;
+}
+
+main .card-group .card .card-img-overlay {
+    transition: opacity 0.3 ease, transform 0.3 ease;
+    opacity: 0.5;
 }
