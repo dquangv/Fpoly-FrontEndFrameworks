@@ -434,3 +434,132 @@ main .ship .row .col .card p {
     margin-top: 20px;
     text-align: center;
 }
+
+/*footer*/
+
+footer {
+    color: #fff;
+    width: 100%;
+    background: #000;
+}
+
+footer .row-top {
+    padding: 2% 0 4.5% 0;
+}
+
+footer .row-top .wrap-main {
+    padding: 0 50px;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+footer .row-top .wrap-main .row {
+    margin: 0 -10px;
+}
+
+footer .row-top .wrap-main .col-xs-2,
+footer .row-top .wrap-main .col-xs-4 {
+    padding-top: 3%;
+}
+
+footer .row-top .wrap-main .row.list-row>div {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer .row-top .wrap-main .col-xs-2 {
+    width: 16.66%;
+}
+
+footer .row-top .wrap-main .col-xs-4 {
+    width: 33.33%;
+}
+
+footer .row-top .wrap-main .col-sm-2 {
+    width: 16.66%;
+}
+
+footer ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+footer ul li {
+    font-size: 12px;
+    font-weight: 600;
+    margin: 15px 0 0 0;
+}
+
+footer a {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    line-height: 1.6;
+}
+
+footer .visa,
+footer .cardMS {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 54px;
+    margin-right: 5px;
+}
+
+footer .visa::before,
+footer .cardMS::before {
+    content: '';
+    float: left;
+    padding-top: 61.11%;
+}
+
+footer .fb,
+footer .ig,
+footer .yt {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 33px;
+}
+
+footer .fb::before,
+footer .ig::before,
+footer .yt::before {
+    content: '';
+    float: left;
+    padding-top: 100%;
+}
+
+footer .form-group input {
+    display: block;
+    height: 50px;
+    width: 100%;
+    padding: 6px 55px 6px 12px;
+    border: 1px solid #d8d8d8;
+    background: none;
+    color: #000;
+    box-shadow: none;
+    border-radius: 0;
+    font: 300 12px 'Montserrat';
+}
+
+footer .form-group input::placeholder {
+    color: #9c9c9c;
+}
+
+footer .form-group input:focus {
+    border-color: rgb(3, 154, 255);
+    background-color: #000;
+    color: #fff;
+}
