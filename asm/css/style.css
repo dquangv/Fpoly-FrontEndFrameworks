@@ -45,8 +45,14 @@ header .top-left {
     color: #666;
 }
 
-header .top-left a {
+header .top-left a:first-child {
     color: #666;
+    text-decoration: none;
+}
+
+header .top-left a:last-child {
+    color: #fff;
+    text-decoration: none;
 }
 
 header .dflex svg {
@@ -123,6 +129,10 @@ header .container .nav-item:hover .menu-item-list {
     opacity: 1;
     transform: translateY(0);
     z-index: 100;
+}
+
+header .container .nav-item .menu-item-list li:hover a {
+    text-decoration: underline;
 }
 
 header .container .d-flex {
@@ -562,4 +572,44 @@ footer .form-group input:focus {
     border-color: rgb(3, 154, 255);
     background-color: #000;
     color: #fff;
+}
+
+footer .row-bottom {
+    width: 100%;
+}
+
+footer .row-bottom .wrap-main {
+    border-top: 1px solid #333;
+    padding: 3% 50px;
+    width: 100%;
+    margin: auto;
+    max-width: 1440px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .row-bottom .wrap-main span {
+    color: #999;
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 12px;
+}
+
+footer .row-bottom .wrap-main a {
+    font-weight: 300;
+}
+
+footer .identity>a {
+    background-image: url(../img/bo_cong_thuong.png);
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 107px;
+}
+
+footer .identity>a::before {
+    content: '';
+    float: left;
+    padding-top: 37.93%;
 }
